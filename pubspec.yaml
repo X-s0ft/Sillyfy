@@ -11,8 +11,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  
   
   cupertino_icons: ^1.0.8
 
@@ -23,39 +21,14 @@ dev_dependencies:
   flutter_lints: ^5.0.0
 
 
-
-
-
 flutter:
   uses-material-design: true
 
-  
-  
-  
-  
 
-  
-  
-
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  fonts:
+    - family: LittleFriend
+      fonts:
+        - asset: lib/res/fonts/LittleFriend.ttf
+    - family: Simply Charming
+      fonts:
+        - asset: lib/res/fonts/Simply Charming.ttf
