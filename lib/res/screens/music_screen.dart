@@ -12,14 +12,16 @@ class _MusicScreenState extends State<MusicScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(child:  Text(
-          'Just relax',
-          style: Theme.of(context).textTheme.bodyLarge,
-        ),),
+        title: Center(
+          child: Text(
+            'Just relax',
+            style: Theme.of(context).textTheme.bodyLarge,
+          ),
+        ),
       ),
 
-      body: Center( child: 
-        Column(
+      body: Center(
+        child: Column(
           children: [
             SizedBox(height: 15),
             Text(
@@ -39,7 +41,5 @@ class _MusicScreenState extends State<MusicScreen> {
   }
 }
 
-//TODO: На странице должно отображаться:
-// 1 - Аппбар на котором название приложения, отдельная справа кнопка настройки
-// 2 - Несколько (2) плейлиста
-// 3 - отдельная висящая кнопка рандомного плейлиста
+// TODO: 
+// ВЫвод всей музыки 
